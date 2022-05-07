@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hibernate-mapping>
+<class name="model.Cart" table="cart">
+<composite-id>
+<key-property name="userId" column="user_id" type="string" />
+<key-property name="productId" column="product_id" type="integer" />
+</composite-id>
+<property name="productName" column="product_name" type="string" />
+<property name="unitPrice" column="unit_price" type="float" />
+<property name="orderQuantity" column="order_quantity" type="integer" />
+<property name="netAmount" column="net_amount" type="float" />
+</class>
+</hibernate-mapping>

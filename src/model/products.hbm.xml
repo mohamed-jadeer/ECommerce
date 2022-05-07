@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hibernate-mapping>
+<class name="model.Products" table="products">
+<id name="productId" column="product_id" type="integer"></id>
+<property name="productName" column="product_name" type="string" />
+<property name="unitPrice" column="unit_price" type="float" />
+<property name="stockInHand" column="stock_in_hand" type="integer" />
+</class>
+</hibernate-mapping>

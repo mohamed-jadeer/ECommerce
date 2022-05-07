@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hibernate-mapping>
+<class name="model.Customers" table="customers">
+<id name="userId" column="user_id" type="string"></id>
+<property name="firstName" column="first_name" type="string" />
+<property name="lastName" column="last_name" type="string" />
+<property name="password" column="password" type="string" />
+<property name="shippingAddress" column="shipping_address" type="string" />
+<property name="emailAddress" column="email_address" type="string" />
+<property name="contactNumber" column="contact_number" type="string" />
+</class>
+</hibernate-mapping>

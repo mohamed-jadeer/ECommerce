@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+<bean id="customers" class="model.Customers" />
+<bean id="customersbean" class="model.CustomersBean" />
+<bean id="products" class="model.Products" />
+<bean id="productsbean" class="model.ProductsBean" />
+<bean id="cart" class="model.Cart" />
+<bean id="cartbean" class="model.CartBean" />
+</beans>
